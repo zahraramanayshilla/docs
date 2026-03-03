@@ -1,3 +1,44 @@
+# Dokumentasi Fungsi show, hide, dan textFocus
+
+Module: **element.js**
+Module element.js menyediakan fungsi manipulasi elemen DOM untuk mengatur visibilitas dan fokus elemen secara modular dalam CrootJS.
+
+## 1. `show()`
+
+Fungsi show() digunakan untuk menampilkan elemen yang sebelumnya tersembunyi `(misalnya memiliki display: none)` tanpa menghapusnya dari **struktur DOM.**
+
+### Contoh
+
+```js
+import { show } from './element.js';
+
+show('box');
+// Elemen dengan id="box" akan ditampilkan
+
+
+2. `hide()`
+
+Fungsi hide() digunakan untuk menyembunyikan elemen dari tampilan halaman tanpa menghapusnya dari DOM, sehingga elemen masih bisa dimanipulasi kembali.
+
+### Contoh
+
+import { hide } from './element.js';
+
+hide('box');
+// Elemen dengan id="box" akan disembunyikan
+
+3. `textfocus()`
+
+Fungsi textFocus() digunakan untuk memberikan fokus otomatis pada elemen input teks, sehingga pengguna dapat langsung mengetik tanpa perlu klik manual.
+
+
+ ### Contoh
+ 
+ import { textFocus } from './element.js';
+
+textFocus('username');
+// Input dengan id="username" akan langsung mendapat fokus
+
 # 📦 CrootJs — Dokumentasi `element.js`
 
 > **CrootJs** adalah library JavaScript ringan untuk menyederhanakan manipulasi DOM dan event handling di sisi klien.
