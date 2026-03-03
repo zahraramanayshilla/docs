@@ -2,7 +2,7 @@
 `validate.js` dalam library croot.js berfungsi sebagai input transformer. Berbeda dengan validasi biasa yang hanya memberikan pesan error, modul ini secara aktif memanipulasi input pengguna agar sesuai dengan standar format database (seperti memaksa huruf kecil, menghapus spasi, atau memformat mata uang).
 
 # Cara Penggunaan (Import)
-import fungsii dari CDN jsDelivr ke dalam file JavaScript kamu yang bertipe `module`.
+import fungsi dari CDN jsDelivr ke dalam file JavaScript kamu yang bertipe `module`.
 
 ```javascript
 import { validateUserName, formatRupiah } from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.1/validate.js";;
@@ -42,5 +42,5 @@ Berikut adalah cara menerapkannya pada elemen HTML menggunakan Event Listener:
 import { validateUserName, formatRupiah } from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.1/validate.js";
 ```
 
-# Kwsimpulan
+# Kesimpulan
 Modul `validate.js` di croot.js bukan sekadar pengecek data, tapi merupakan alat Sanitasi Data. Hal ini membuat aplikasi lebih aman dari serangan injection dan memastikan data di database selalu konsisten.
