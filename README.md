@@ -8,7 +8,7 @@ Pastikan terlebih dahulu anda memiliki file favicon.ico dan mengunggahnya di roo
 
 Buka prompt
 ```txt
-buatkan landing page untuk platform digital kampus dengan menggunakan HTML, CSS dan JS ES6+ Module dilengkapi dengan meta tag untuk sosial media (termasuk sharing whatsapp yang tampil gambar, judul dan deskripsinya ketika di share)
+buatkan landing page yang responsif untuk platform digital kampus dengan menggunakan HTML, CSS dan JS ES6+ Module dilengkapi dengan meta tag untuk sosial media (termasuk sharing whatsapp yang tampil gambar, judul dan deskripsinya ketika di share)
 ```
 
 Human in the loop:
