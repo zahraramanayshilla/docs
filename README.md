@@ -6,8 +6,6 @@ Dokumentasi Pemakaian CrootJS dengna AI Companion dan Human in the loop.
 
 Pembuatan landing page awal pada alamat.github.io
 
-Pastikan terlebih dahulu anda memiliki file favicon.ico dan mengunggahnya di root direktory
-
 Buka prompt
 ```txt
 buatkan landing page yang responsif untuk platform digital kampus dengan menggunakan HTML, CSS dan JS ES6+ Module dilengkapi dengan meta tag untuk sosial media (termasuk sharing whatsapp yang tampil gambar, judul dan deskripsinya ketika di share)
@@ -83,3 +81,5 @@ Human in the loop:
 
     </urlset>
    ```
+4. Pastikan terlebih dahulu anda mengunggah file favicon.ico
+5. Pastikan anda membuat file [404.html](404.html)
