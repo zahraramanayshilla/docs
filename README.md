@@ -134,10 +134,10 @@ API whatsauth dapat digunakan untuk pengembangan implementasi SSO, login menggun
 
 4. gsi.js : pengaturan login menggunakan google sign in
    ```js
-   import {setCookieWithExpireHour,getCookie} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.4/cookie.js";
-   import {postJSON} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.4/api.js";
-   import {redirect} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.4/url.js";
-   import {addCSSInHead,addJSInHead} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.6/element.js";
+   import {setCookieWithExpireHour,getCookie} from "https://cdn.jsdelivr.net/gh/crootjs/lib@0.0.2/cookie.js";
+   import {postJSON} from "https://cdn.jsdelivr.net/gh/crootjs/lib@0.0.2/api.js";
+   import {redirect} from "https://cdn.jsdelivr.net/gh/crootjs/lib@0.0.2/url.js";
+   import {addCSSInHead,addJSInHead} from "https://cdn.jsdelivr.net/gh/crootjs/lib@0.0.2/element.js";
    import Swal from 'https://cdn.jsdelivr.net/npm/sweetalert2@11/src/sweetalert2.js';
    
    
@@ -259,9 +259,9 @@ Pada file index.html
 
 Pada file index.js
 ```js
-import {getCookie} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/cookie.js";
-import {getJSON} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/api.js";
-import {redirect} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/url.js";
+import {getCookie} from "https://cdn.jsdelivr.net/gh/crootjs/lib@0.0.2/cookie.js";
+import {getJSON} from "https://cdn.jsdelivr.net/gh/crootjs/lib@0.0.2/api.js";
+import {redirect} from "https://cdn.jsdelivr.net/gh/crootjs/lib@0.0.2/url.js";
 
 if (getCookie("login")){
     getJSON("https://asia-southeast2-awangga.cloudfunctions.net/florka/data/user","login",getCookie("login"),responseFunction);
